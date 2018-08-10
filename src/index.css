@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Material+Icons');
+
+body {
+  font-family: system-ui;
+  margin: 20px;
+  text-align: center;
+}
+h1, h2 {
+  font-weight: normal;
+}
+h2 {
+  margin: 40px 0 10px 0;
+}
+.material-icons.md-inactive {
+  color: rgba(0, 0, 0, 0.26);
+}
+.material-icons.md-large {
+  font-size: 36px;
+}
+button {
+  font-size: 20px;
+  background: white;
+  border-width: 0;
+  color: #0b7373;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  margin-top: 10px;
+}
+button:focus {
+  outline: none;
+}
+button:hover {
+  background: #eee;
+}
+button:active {
+  background: #ddd;
+}
+button:disabled {
+  background: white;
+  color: rgba(0, 0, 0, 0.26);
+}

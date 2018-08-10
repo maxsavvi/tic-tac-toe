@@ -1,0 +1,32 @@
+.square {
+  margin: 0;
+  float: left;
+  border: 2px solid #222;
+  width: 134px;
+  height: 134px;
+  padding: 0;
+  text-align: center;
+}
+.square.top {
+  border-top-color: transparent;
+}
+.square.left {
+  border-left-color: transparent;
+}
+.square.right {
+  border-right-color: transparent;
+}
+.square.bottom {
+  border-bottom-color: transparent;
+}
+.square.winning {
+  background: #f0d;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.game-piece {
+  width: 80%;
+}

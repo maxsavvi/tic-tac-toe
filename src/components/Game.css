@@ -1,0 +1,15 @@
+.game-board {
+  margin-top: 15px;
+}
+
+.game-status {
+  margin: 10px;
+  font-size: 24px;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

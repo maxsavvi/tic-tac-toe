@@ -1,0 +1,12 @@
+.settings {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.player-selector-container {
+  margin: 0 10px 0 10px;
+}
+.player {
+  width: 48px;
+  height: 48px;
+}

@@ -1,0 +1,13 @@
+.player-selector {
+  display: flex;
+  flex-direction: column;
+  align-items:stretch;
+  justify-content: center;
+}
+
+.player-type-button {
+  font-size: 20px;
+}
+.player-type-button.selected {
+  background: #0f0;
+}

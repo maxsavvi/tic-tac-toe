@@ -1,0 +1,14 @@
+.history-controls-button {
+  height: 48px;
+  width: 48px;
+}
+.history-controls {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.move-counter {
+  width: 100px;
+  display: inline-block;
+  text-align: center;
+}

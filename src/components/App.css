@@ -1,0 +1,12 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.new-game-button {
+  font-size: 24px;
+}
+.past-games-load-button {
+  margin: 0 0 10px 0;
+}
